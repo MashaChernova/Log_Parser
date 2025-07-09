@@ -1,0 +1,48 @@
+{
+    "total_requests": 3216723,
+    "method_counts": {
+        "GET": 2247848,
+        "POST": 918794,
+        "HEAD": 49971,
+        "PUT": 70,
+        "OPTIONS": 39,
+        "DELETE": 1
+    },
+    "top_ips": [
+        [
+            "193.106.31.130",
+            235209
+        ],
+        [
+            "198.50.156.189",
+            167812
+        ],
+        [
+            "5.112.235.245",
+            166722
+        ]
+    ],
+    "slow_requests": [
+        {
+            "ip": "62.93.172.245",
+            "method": "POST",
+            "url": "/administrator/index.php",
+            "date": "23/Dec/2015:07:27:57 +0100",
+            "duration": 10000
+        },
+        {
+            "ip": "213.162.68.113",
+            "method": "GET",
+            "url": "/media/system/css/modal.css",
+            "date": "06/Jan/2016:18:47:57 +0100",
+            "duration": 10000
+        },
+        {
+            "ip": "194.166.55.43",
+            "method": "GET",
+            "url": "/images/phocagallery/almhuette/thumbs/phoca_thumb_m_terasse.jpg",
+            "date": "06/Jan/2016:21:29:02 +0100",
+            "duration": 10000
+        }
+    ]
+}
